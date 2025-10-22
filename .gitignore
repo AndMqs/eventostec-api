@@ -1,0 +1,35 @@
+# Evita subir credenciais sensíveis
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# Build e dependências
+target/
+build/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs e ferramentas
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Outros
+HELP.md
+
