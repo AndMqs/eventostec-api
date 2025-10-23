@@ -52,7 +52,8 @@ src/
 │ │ ├── repositories/ → Integração com o banco de dados
 │ │ └── domain/ → Entidades e DTOs
 │ └── resources/
-│ ├── application.yml → Configurações de ambiente
+│       ├── db/
+│       │   └── migration/  → Scripts de migration
 ``` 
 
 ---
