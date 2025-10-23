@@ -1,13 +1,27 @@
 # 🧠 EventosTec API
 
-  API REST desenvolvida para o gerenciamento de eventos tecnológicos — permitindo criar, listar, atualizar e excluir eventos, facilitando a integração com um front-end ou outros serviços.
+  API REST desenvolvida para o gerenciamento de eventos tecnológicos — permitindo criação, listagem, filtragem e detalhamento de eventos, bem como a associação de cupons de desconto.
 
 ---
 
 ## 🚀 Visão Geral
 
   O **EventosTec API** foi criado com o objetivo de oferecer uma base sólida e escalável para o gerenciamento de eventos.  
-A aplicação segue boas práticas de arquitetura, como separação de camadas (Controller, Service e Repository), tratamento centralizado de exceções e versionamento de API.
+A aplicação segue boas práticas de arquitetura, como separação de camadas (Controller, Service e Repository) e versionamento de API.
+
+---
+
+## 🧩 Modelagem e Arquitetura da Solução
+
+A imagem abaixo apresenta duas visões principais do projeto **EventosTec API**:
+
+- **Modelagem de Dados:** entidades principais do sistema e seus relacionamentos (Event, Address, Coupon, Classname).
+- **Desenho de Solução:** representação da arquitetura implantada na AWS, incluindo EC2, S3 e comunicação com o banco de dados.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/733805ff-8cb4-42d7-969b-c503c91f53f7" alt="Modelagem e Arquitetura da Solução - EventosTec API" width="700"/>
+</p>
+
 
 ---
 
